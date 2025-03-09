@@ -42,10 +42,10 @@ env:
 permissions:
   contents: read
 
-jobs:
+jobs: all microsoft docs
   deploy:
     name: Deploy
-    runs-on: ubuntu-latest
+    runs-on: windows
     environment: production
 
     steps:
